@@ -54,12 +54,22 @@
         transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
     }
     .face5 {
-        transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
+        transform: rotateY(-90deg) rotateZ(0deg) translateZ(100px);
     }
     .face6 {
-        transform: rotateY(-90deg) translateZ(100px);
+        transform: rotateX(-90deg) translateZ(100px);
     }
 }
+
+.face5 .fa-js-square {
+    transform: rotate(270deg);
+}
+
+
+.face6 .fa-github {
+    transform: rotate(270deg);
+}
+
 
 @keyframes spincube {
     from,
